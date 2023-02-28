@@ -1,0 +1,118 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+/* Set default themes */
+:root {
+  --mpa-blue: #00539f;
+  --mpa-orange: #e4501c; 
+  --mpa-white: #fff; 
+  --mpa-ltblue: #d5e6f5;
+}
+
+/* Remove all link underscores */
+a {
+  text-decoration: none;
+}
+
+/* Setup main body */
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  max-width: 360px;
+  margin: auto;
+}
+
+.Header {
+  color: var(--mpa-blue); 
+  font-size: 24px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Page from top to bottom */
+.eventContainer {
+  background-color: var(--mpa-white);
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+/* Image Container */
+  .eventImage {
+    margin: 0;
+    height: 130px;
+  }
+  .eventImg {
+    border-radius: 25px 25px 0 0;
+    width: 358px;
+    margin: 0;
+  }
+
+/* Details Container */
+  .eventDetails {
+    text-align: center;
+    width:356px;
+    border-left: 1px solid var(--mpa-blue);
+    border-right: 1px solid var(--mpa-blue);
+    border-bottom: 1px solid var(--mpa-blue);
+    border-radius: 0 0 25px 25px;
+    background-color: var(--mpa-ltblue);
+  }
+
+  .eventTitle {
+    padding: 20px 0 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--mpa-blue);
+    color: var(--mpa-white);
+  }
+
+/* All Date(s) Container */
+.eventDateContainer {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+/* Performance Container */
+.eventPerformance {
+  width: 100px;
+  margin: 2px;
+  border-radius: 10px ;
+}
+
+/* Date */
+.eventDate {
+  background-color: var(--mpa-blue);
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  color: var(--mpa-white);
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+/* Date Top Text */
+.eventDateTop {
+  font-size: 20px;
+  font-weight: 500;
+}
+/* Date Bottom Text */
+.eventDateBottom {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Doors/Start Time */
+.eventTimes {
+  font-size: 15px;
+  font-weight: 300;
+  border: 1px solid var(--mpa-blue);
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  color: var(--mpa-orange);
+  background-color: var(--mpa-white)
+}
